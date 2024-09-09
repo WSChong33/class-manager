@@ -1,0 +1,28 @@
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar-container {
+    width: 15%;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    border-radius: 8px;
+    background-color: #5c5151;
+}
+
+.class-container {
+    width: 85%;
+    background-color: #c0b1b1;
+    padding: 20px;
+    box-sizing: border-box;
+}

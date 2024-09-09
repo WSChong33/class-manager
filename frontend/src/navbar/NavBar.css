@@ -1,0 +1,43 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #f8f9fa; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for depth */
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item.left {
+    margin-right: auto;
+}
+
+.navbar-item.right {
+    display: flex;
+    gap: 20px; /* Adds spacing between Login and Sign Up */
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.navbar-item.right a:hover {
+    color: #007bff; /* Optional: Change link color on hover */
+}
